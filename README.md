@@ -6,7 +6,7 @@
 Including five test cases:
 
 1. order 50 Harry Potter fiction books at a rate of $38.5 (float price) each without discount voucher.
-This test case will **fail** because I cannot enter a float price into the price input.
+This test case will **fail** because the price input will treat float price as invalid value.
 
 2. order 50 Harry Potter fiction books at a rate of $38 (int price) each without discount voucher.
 This test case will pass. After placing an order, it will assert the values in the Transaction record table according to form data I input.
